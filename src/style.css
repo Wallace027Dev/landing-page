@@ -11,10 +11,6 @@ body{
     font-family: 'Inter', sans-serif;
 }
 
-.inspecionar{
-    border: 5px solid red;
-}
-
 .header{
     height: 2.75rem;
     margin: auto 4.4rem;
@@ -33,6 +29,12 @@ body{
 }
 
 .center-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.body-main{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -67,8 +69,8 @@ body{
 }
 
 .btn{
-    width: 210px;
-    height: 58px;
+    width: 13.12rem;
+    height: 3.62rem;
     background: #9BA0FC;
     font-weight: 600;
     font-size: 1.5rem;
@@ -84,7 +86,7 @@ body{
 
 .cntn{
     height: 38.8rem;
-    margin-top: 7.87rem;
+    margin-top: 7.1rem;
 }
 
 .container1{
@@ -115,4 +117,151 @@ body{
 .saly3{
     height: 39.9rem;
     margin-top: 6.87rem;
+}
+
+@media (max-width:1400px){
+
+    .nav a{
+        margin: auto 1.5rem;
+        font-weight: 600;
+        font-size: 1.5rem;
+    }
+
+    .btn{
+        width: 12rem;
+        height: 3rem;
+        font-size: 1.3rem;
+        letter-spacing: 0.3em;
+    }
+
+    .txt-main h1{
+        font-size: 2.5rem;
+        
+    }
+    
+    .txt-main p{
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        max-width: 22rem;
+        font-size: 1rem;
+        line-height: 2rem;
+    }
+
+    .cntn{
+        height: 18.3rem;
+        margin-top: 8rem;
+    }
+    
+    .container1{
+        width: 5.7rem;
+    }
+    
+    .container2{
+        width: 12.3rem;
+    }
+    
+    .container3{
+        width: 5.7em;
+    }
+    
+    .saly1{
+        height: 21.3rem;
+        margin-top: 0.2rem;
+    }
+    
+    .saly2{
+        height: 22.05rem;
+        margin-top: 0rem;
+    }
+    
+    .saly3{
+        height: 19.95rem;
+        margin-top: 2.3rem;
+    }
+    
+}
+
+@media (max-width:1000px){
+    .header-main{
+        height: 3rem;
+        justify-content: space-around;
+    }
+
+    .header{
+        height: 1.2rem;
+        margin: auto 1rem;
+    }
+    
+    .nav{
+        margin: auto 1rem;
+    }
+
+    .nav a{
+        margin: auto 0.5rem;
+        font-weight: 600;
+        font-size: 1rem;
+    }
+
+    .body-main{
+        flex-direction: column;
+    }
+
+    .btn{
+        width: 12rem;
+        height: 3rem;
+        font-size: 1.3rem;
+        letter-spacing: 0.3em;
+    }
+
+    .txt-main h1{
+        font-size: 2.5rem;
+        
+    }
+    
+    .txt-main p{
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        max-width: 22rem;
+        font-size: 1rem;
+        line-height: 2rem;
+    }
+
+    .img-saly{
+        margin-left: 0;
+        gap: 0.3rem;
+    }
+
+    .cntn{
+        height: 18.3rem;
+        margin-top: 8rem;
+    }
+    
+    .container1{
+        width: 5.7rem;
+    }
+    
+    .container2{
+        width: 12.3rem;
+    }
+    
+    .container3{
+        width: 5.7em;
+    }
+    
+    .saly1{
+        height: 21.3rem;
+        margin-top: 0.2rem;
+    }
+    
+    .saly2{
+        height: 22.05rem;
+        margin-top: 0rem;
+    }
+    
+    .saly3{
+        height: 19.95rem;
+        margin-top: 2.3rem;
+    }
+
+
 }
