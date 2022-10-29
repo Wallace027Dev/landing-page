@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+body{
+    background: #0E0C0C;
+    color: #FFFFFF;
+    font-family: 'Inter', sans-serif;
+}
+
+.inspecionar{
+    border: 5px solid red;
+}
+
+.header{
+    height: 2.75rem;
+    margin: auto 4.4rem;
+}
+
+.nav{
+    margin: auto 4.4rem;
+}
+
+.nav a{
+    margin: auto 3.1rem;
+    font-weight: 600;
+    font-size: 1.5rem;
+    letter-spacing: 0.09em;
+    color: #0E0C0C;
+}
+
+.center-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.txt-main{
+    margin-top: 6.5rem;
+}
+
+.header-main{
+    height: 4.6rem;
+    background-color:#9BA0FC;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.txt-main h1{
+    font-size: 3rem;
+    font-weight: 800;
+    letter-spacing: 0.09em;
+    color: #9BA0FC;
+}
+
+.txt-main p{
+    margin-top: 2.4rem;
+    margin-bottom: 2.4rem;
+    max-width: 28.75rem;
+    font-weight: 400;
+    font-size: 1.5rem;
+    line-height: 2.75rem;
+}
+
+.btn{
+    width: 210px;
+    height: 58px;
+    background: #9BA0FC;
+    font-weight: 600;
+    font-size: 1.5rem;
+    letter-spacing: 0.09em;
+    border: 0;
+}
+
+.img-saly{
+    display: flex;
+    margin-left: 6.25rem;
+    gap: 1.6rem;
+}
+
+.cntn{
+    height: 38.8rem;
+    margin-top: 7.87rem;
+}
+
+.container1{
+    background: #FFD280;
+    width: 11.4rem;
+}
+
+.container2{
+    background: #9BA0FC;
+    width: 24.7rem;
+}
+
+.container3{
+    background: #8FC7FF;
+    width: 11.4rem;
+}
+
+.saly1{
+    height: 42.6rem;
+    margin-top: 2.1rem;
+}
+
+.saly2{
+    height: 44.3rem;
+    margin-top: 2.1rem;
+}
+
+.saly3{
+    height: 39.9rem;
+    margin-top: 6.87rem;
+}
